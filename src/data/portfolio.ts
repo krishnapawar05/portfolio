@@ -122,6 +122,32 @@ export const PORTFOLIO_DATA = {
       imageAlt: "SmartVision AI-powered assistive technology interface with real-time OCR, TTS audio synthesis, and YOLOv8 object detection",
     },
     {
+      id: "genetic-purity-ai",
+      title: "Genetic Purity AI",
+      subtitle: "AI-Based Crop Genetic Purity Detection",
+      category: "AI/ML · WEB APPLICATION",
+      description:
+        "A Flask-based web application that analyzes chilli plant specimen images using a MobileNet-based deep learning model to classify specimens as male, female, or hybrid.",
+      detailedOverview:
+        "Genetic Purity AI applies computer vision to agricultural botanical inspection. By analyzing morphological characteristics in chilli plant specimens (leaves, stems, and floral structures), the system automates purity verification for agricultural research and seed quality assurance. The platform incorporates end-to-end image preprocessing, MobileNet transfer learning via Keras/TensorFlow, secure authentication, and downloadable PDF classification reports.",
+      keyFeatures: [
+        "MobileNet deep learning classifier for chilli plant genetic purity",
+        "Botanical morphology analysis for male, female, and hybrid specimen identification",
+        "Integrated image preprocessing and augmentation pipeline",
+        "Secure user authentication, prediction history, and PDF report generation",
+      ],
+      technologies: [
+        "Python",
+        "Flask",
+        "TensorFlow/Keras",
+        "MobileNet",
+        "OpenCV",
+        "MongoDB",
+      ],
+      image: "/genetic-purity.png",
+      imageAlt: "Genetic Purity AI plant morphology analysis dashboard showing specimen input, feature extraction, t-SNE embeddings, and purity classification",
+    },
+    {
       id: "civictrack",
       title: "CivicTrack",
       subtitle: "AI-Powered Civic Issue Reporting & Resolution Platform",
@@ -147,36 +173,8 @@ export const PORTFOLIO_DATA = {
         "Geospatial Mapping",
       ],
       liveDemoUrl: "https://civictrack-blue.vercel.app/",
-      image:
-        "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=85",
-      imageAlt: "Civic urban infrastructure and smart city management interface visualization",
-    },
-    {
-      id: "genetic-purity-ai",
-      title: "Genetic Purity AI",
-      subtitle: "AI-Based Crop Genetic Purity Detection",
-      category: "AI/ML · WEB APPLICATION",
-      description:
-        "A Flask-based web application that analyzes chilli plant specimen images using a MobileNet-based deep learning model to classify specimens as male, female, or hybrid.",
-      detailedOverview:
-        "Genetic Purity AI applies computer vision to agricultural botanical inspection. By analyzing morphological characteristics in chilli plant specimens (leaves, stems, and floral structures), the system automates purity verification for agricultural research and seed quality assurance. The platform incorporates end-to-end image preprocessing, MobileNet transfer learning via Keras/TensorFlow, secure authentication, and downloadable PDF classification reports.",
-      keyFeatures: [
-        "MobileNet deep learning classifier for chilli plant genetic purity",
-        "Botanical morphology analysis for male, female, and hybrid specimen identification",
-        "Integrated image preprocessing and augmentation pipeline",
-        "Secure user authentication, prediction history, and PDF report generation",
-      ],
-      technologies: [
-        "Python",
-        "Flask",
-        "TensorFlow/Keras",
-        "MobileNet",
-        "OpenCV",
-        "MongoDB",
-      ],
-      image:
-        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=85",
-      imageAlt: "Chilli plant botanical specimen and green foliage for agricultural genetic purity analysis",
+      image: "/civictrack.png",
+      imageAlt: "CivicTrack AI civic issue reporting platform showing citizen reporting road potholes, waste bins, and GPS geospatial issue mapping with municipal resolution crew",
     },
     {
       id: "grainvision",
@@ -201,9 +199,8 @@ export const PORTFOLIO_DATA = {
         "React",
         "Docker",
       ],
-      image:
-        "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=85",
-      imageAlt: "Golden agricultural wheat and grain harvest inspection visual",
+      image: "/grainvision.png",
+      imageAlt: "GrainVision automated computer vision conveyor inspection system detecting impurities and foreign contaminants in agricultural grains with YOLOv8 bounding boxes",
     },
     {
       id: "saveher",
@@ -230,9 +227,8 @@ export const PORTFOLIO_DATA = {
         "Mapbox GL JS",
         "PWA",
       ],
-      image:
-        "https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=85",
-      imageAlt: "Emergency geolocation and personal safety application concept on illuminated city map",
+      image: "/saveher.png",
+      imageAlt: "SaveHer discreet emergency SOS web app visual showing wearable alert trigger, GPS tracking route, police dispatch, and security monitoring console",
     },
     {
       id: "curiobattle",
