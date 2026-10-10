@@ -118,9 +118,8 @@ export const PORTFOLIO_DATA = {
       statusBadge: "Patent Pending",
       supportingDescription:
         "Awarded 1st Place at the NAIN 2.0 Graduation & Demo Day under the Government of Karnataka's innovation initiative at IIIT Dharwad. The project is patent pending.",
-      image:
-        "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=1200&q=85",
-      imageAlt: "Computer vision accessibility interface concept with assistive scanning overlay",
+      image: "/smartvision.png",
+      imageAlt: "SmartVision AI-powered assistive technology interface with real-time OCR, TTS audio synthesis, and YOLOv8 object detection",
     },
     {
       id: "civictrack",
