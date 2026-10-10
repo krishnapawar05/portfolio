@@ -254,9 +254,8 @@ export const PORTFOLIO_DATA = {
         "Firebase Firestore",
         "Tailwind CSS",
       ],
-      image:
-        "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=85",
-      imageAlt: "Futuristic interactive gaming and real-time digital competition visual",
+      image: "/curiobattle.png",
+      imageAlt: "CurioBattle interactive real-time quiz battle interface with CS LRU cache question, live multiplayer leaderboard, XP trophies, and study desk",
     },
   ] as Project[],
 
