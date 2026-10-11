@@ -74,7 +74,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-[11px] text-muted/60 tracking-[0.2em] font-mono"
         >
-          KRISHNA G. PAWAR
+          KRISHNA PAWAR
         </motion.span>
       </div>
 

@@ -74,7 +74,7 @@ export const Navbar: React.FC = () => {
             onMouseEnter={() => setLogoHovered(true)}
             onMouseLeave={() => setLogoHovered(false)}
             className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center p-[1.5px] transition-transform duration-300 hover:scale-110 cursor-pointer shrink-0 focus-visible:ring-2 focus-visible:ring-[#89AACC] outline-none"
-            aria-label="Krishna G. Pawar Home"
+            aria-label="Krishna Pawar Home"
           >
             <div
               className={`absolute inset-0 rounded-full transition-all duration-500 ${
@@ -142,7 +142,7 @@ export const Navbar: React.FC = () => {
             <a
               href={PORTFOLIO_DATA.personal.resumeUrl}
               download={PORTFOLIO_DATA.personal.resumeFilename}
-              aria-label="Download Krishna G. Pawar's Resume (PDF)"
+              aria-label="Download Krishna Pawar's Resume (PDF)"
               className="relative group rounded-full text-xs font-medium px-3 sm:px-3.5 py-1.5 inline-flex items-center gap-1.5 transition-all duration-300 hover:scale-105 active:scale-95 bg-[#4E85BF]/15 border border-[#89AACC]/40 text-[#89AACC] hover:bg-[#4E85BF]/25 hover:text-white shrink-0 focus-visible:ring-2 focus-visible:ring-[#89AACC] outline-none"
             >
               <Download className="w-3 h-3 transition-transform duration-200 group-hover:-translate-y-0.5" />
@@ -152,7 +152,7 @@ export const Navbar: React.FC = () => {
             {/* "Say hi" CTA button invoking email compose */}
             <a
               href={emailHref}
-              aria-label="Say hi — Email Krishna G. Pawar"
+              aria-label="Say hi — Email Krishna Pawar"
               className="relative group rounded-full text-xs px-3 sm:px-3.5 py-1.5 inline-flex items-center justify-center transition-all duration-200 active:scale-95 shrink-0 focus-visible:ring-2 focus-visible:ring-[#89AACC] outline-none"
             >
               <span className="absolute -inset-[1px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-[0.5px]" />

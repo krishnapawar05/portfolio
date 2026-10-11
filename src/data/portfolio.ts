@@ -48,7 +48,7 @@ export interface SocialLink {
 
 export const PORTFOLIO_DATA = {
   personal: {
-    name: "Krishna G. Pawar",
+    name: "Krishna Pawar",
     monogram: "KP",
     eyebrow: "COMPUTER SCIENCE • FULL-STACK DEVELOPMENT",
     headline: "Full-Stack Developer & AI Enthusiast",
@@ -68,7 +68,7 @@ export const PORTFOLIO_DATA = {
     phone: "+91 8867434799",
     phoneUrl: "tel:+918867434799",
     resumeUrl: "/resume.pdf",
-    resumeFilename: "Krishna_G_Pawar_Resume.pdf",
+    resumeFilename: "Krishna_Pawar_Resume.pdf",
     interests: [
       "Full-Stack Development",
       "MERN Stack Development",
@@ -85,8 +85,18 @@ export const PORTFOLIO_DATA = {
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/krishnapawar05",
+      url: "https://www.linkedin.com/in/krishnapawar05/",
       ariaLabel: "Connect with Krishna on LinkedIn",
+    },
+    {
+      platform: "Instagram",
+      url: "https://www.instagram.com/krishnapawar05/",
+      ariaLabel: "Follow Krishna on Instagram",
+    },
+    {
+      platform: "Facebook",
+      url: "https://www.facebook.com/krishnapawar05",
+      ariaLabel: "Connect with Krishna on Facebook",
     },
   ] as SocialLink[],
 

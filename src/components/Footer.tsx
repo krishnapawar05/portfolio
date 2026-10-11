@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ArrowUpRight, Mail, Phone } from "lucide-react";
 import { VideoBackground } from "./VideoBackground";
-import { GithubIcon, LinkedinIcon } from "./SocialIcons";
+import { GithubIcon, LinkedinIcon, InstagramIcon, FacebookIcon } from "./SocialIcons";
 import { PORTFOLIO_DATA } from "../data/portfolio";
 
 const HLS_URL = "https://stream.mux.com/Aa02T7oM1wH5Mk5EEVDYhbZ1ChcdhRsS2m1NYyx4Ua1g.m3u8";
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
           <a
             href={emailHref}
             className="relative group rounded-full text-base sm:text-lg font-medium px-8 sm:px-10 py-4 transition-all duration-300 hover:scale-105 active:scale-95 border-2 border-stroke bg-bg text-text-primary hover:border-transparent inline-flex items-center gap-3 shadow-xl shadow-black/40"
-            aria-label="Send email to Krishna G. Pawar"
+            aria-label="Send email to Krishna Pawar"
           >
             <span className="absolute -inset-[2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
             <span className="relative z-10 font-normal">Get in Touch</span>
@@ -180,6 +180,54 @@ export const Footer: React.FC = () => {
             </div>
             <ArrowUpRight className="w-4 h-4 text-muted group-hover:text-[#89AACC] transition-colors" />
           </a>
+
+          {/* 5. Instagram */}
+          <a
+            href={PORTFOLIO_DATA.socials[2].url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group p-5 rounded-2xl bg-surface/40 hover:bg-surface/80 border border-stroke hover:border-[#89AACC]/40 transition-all duration-300 flex items-center justify-between"
+            aria-label="Follow Krishna on Instagram"
+          >
+            <div className="flex items-center gap-3.5">
+              <div className="w-10 h-10 rounded-xl bg-bg border border-stroke flex items-center justify-center text-[#89AACC] group-hover:scale-105 transition-transform">
+                <InstagramIcon size={18} />
+              </div>
+              <div>
+                <span className="text-[10px] font-mono uppercase tracking-wider text-muted block">
+                  INSTAGRAM
+                </span>
+                <span className="text-xs sm:text-sm font-mono text-text-primary group-hover:text-white transition-colors">
+                  @krishnapawar05
+                </span>
+              </div>
+            </div>
+            <ArrowUpRight className="w-4 h-4 text-muted group-hover:text-[#89AACC] transition-colors" />
+          </a>
+
+          {/* 6. Facebook */}
+          <a
+            href={PORTFOLIO_DATA.socials[3].url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group p-5 rounded-2xl bg-surface/40 hover:bg-surface/80 border border-stroke hover:border-[#89AACC]/40 transition-all duration-300 flex items-center justify-between"
+            aria-label="Connect with Krishna on Facebook"
+          >
+            <div className="flex items-center gap-3.5">
+              <div className="w-10 h-10 rounded-xl bg-bg border border-stroke flex items-center justify-center text-[#89AACC] group-hover:scale-105 transition-transform">
+                <FacebookIcon size={18} />
+              </div>
+              <div>
+                <span className="text-[10px] font-mono uppercase tracking-wider text-muted block">
+                  FACEBOOK
+                </span>
+                <span className="text-xs sm:text-sm font-mono text-text-primary group-hover:text-white transition-colors">
+                  krishnapawar05
+                </span>
+              </div>
+            </div>
+            <ArrowUpRight className="w-4 h-4 text-muted group-hover:text-[#89AACC] transition-colors" />
+          </a>
         </div>
       </div>
 
@@ -215,7 +263,7 @@ export const Footer: React.FC = () => {
 
         {/* Dynamic Copyright */}
         <div className="text-xs font-mono text-muted/60">
-          &copy; {new Date().getFullYear()} Krishna G. Pawar.
+          &copy; {new Date().getFullYear()} Krishna Pawar.
         </div>
       </div>
     </footer>

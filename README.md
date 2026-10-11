@@ -1,4 +1,4 @@
-# 🌌 Krishna G. Pawar — Personal Developer Portfolio
+# 🌌 Krishna Pawar — Personal Developer Portfolio
 
 > **Full-Stack Developer & AI Enthusiast**  
 > Modern, cinematic developer portfolio built with React 19, TypeScript, Vite, Tailwind CSS, GSAP, Framer Motion, and HLS streaming.
@@ -63,4 +63,4 @@ npm run preview
 
 ## 📄 License
 
-Designed and developed by **Krishna G. Pawar**. All rights reserved.
+Designed and developed by **Krishna Pawar**. All rights reserved.

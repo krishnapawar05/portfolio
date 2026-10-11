@@ -106,7 +106,7 @@ export const About: React.FC = () => {
                   <span className="text-[#89AACC]">const</span> developer = &#123;
                 </div>
                 <div className="pl-4 text-text-primary/90">
-                  <span className="text-muted">name:</span> &quot;Krishna G. Pawar&quot;,
+                  <span className="text-muted">name:</span> &quot;Krishna Pawar&quot;,
                 </div>
                 <div className="pl-4 text-text-primary/90">
                   <span className="text-muted">focus:</span> [&quot;Full-Stack&quot;, &quot;Computer Vision&quot;],

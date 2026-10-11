@@ -187,7 +187,7 @@ export const Projects: React.FC = () => {
             {/* Modal Footer */}
             <div className="p-4 sm:p-6 border-t border-stroke/70 flex items-center justify-between bg-bg/60">
               <span className="text-[11px] font-mono text-muted/60">
-                KRISHNA G. PAWAR • PORTFOLIO
+                KRISHNA PAWAR • PORTFOLIO
               </span>
 
               <div className="flex items-center gap-3">
